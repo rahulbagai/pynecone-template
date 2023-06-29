@@ -3,5 +3,5 @@
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
-	"postCreateCommand": "/bin/bash -c '/usr/local/bin/pip install pynecone requests'"
+	"postCreateCommand": "/bin/bash -c '/usr/local/bin/pip install pynecone'"
 }
