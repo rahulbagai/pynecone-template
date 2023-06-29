@@ -3,5 +3,5 @@
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
-	"postCreateCommand": "/bin/bash -c '/usr/local/bin/pip install pynecone'"
+    "postCreateCommand": "/bin/bash -c 'cd test_app && /usr/local/bin/pip install pynecone && pc init'"
 }
